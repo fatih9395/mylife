@@ -2,9 +2,47 @@
 <html>
   <head>
     <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+
+    <script src="/javascripts/bootstrap.min.js" defer></script>
+    <script src="/javascripts/jquery.min.js" defer></script>
   </head>
   <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="/">My Life</a>
+
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/father">Father</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/mother">Mother</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/brother">Brother</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <main>
     {{{body}}}
+    </main>
+       <div class="footer">
+  <p>Muhammet Fatih Degirmenci-200478821- </p>
+</div>
+  </body>
   </body>
 </html>

@@ -1,8 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ 
+  font-family: 'DM Sans', sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+main {
+  padding: 50px;
+}
+
+.navbar-dark {
+  background-color: #A90432;
+}
+
+h1{
+  color: #FDB912;
+}
+
+h2{
+  color:blue;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  color: white;
+  text-align: center;
 }

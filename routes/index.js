@@ -3,15 +3,19 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', (req, res,)=> {
-  res.render('index', { title: 'This Is My Life' });
+  //display current date
+  let date = new Date
+  res.render('index', { 
+    title: 'This Is My Life',
+    date : date
+  });
 });
 
 router.get('/about',(req, res)=>{
   //Displaying current date
-  let date = new Date();
+  
   res.render('about', {
-    date : date, 
-    //Adding a title for our page
+        //Adding a title for our page
     title : 'Purpose of the Site'
   });
 });
